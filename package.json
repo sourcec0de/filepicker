@@ -1,6 +1,6 @@
 {
   "name": "filepicker.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A Node.js Filepicker Library, with streaming",
   "main": "index.coffee",
   "scripts": {

@@ -8,7 +8,7 @@ its extreme scalability.
 
 # Load Dependencies
 Stream = require 'stream'
-Filepicker = require('../index')
+Filepicker = require('filepicker.js')
 filepicker = new Filepicker('YOUR_FILEPICKER_API_KEY')
 
 # Create our own stream

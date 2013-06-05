@@ -1,4 +1,4 @@
-# filepicker-node is a Node.js filepicker library
+# filepicker.js is a Node.js filepicker library with streaming
 Filepicker = (apiKey) ->
   @apiKey = apiKey
   this

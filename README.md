@@ -1,19 +1,19 @@
-filepicker-node
+filepicker.js
 ===============
 
-A Node.js Filepicker Library
+A Node.js Filepicker Library, with streaming
 
 Installation
 -------------
 
 ``` bash
-$ npm install filepicker-node
+$ npm install filepicker.js
 ```
 
 #### Instantiation
 
 ``` javascript
-var Filepicker = require('filepicker-node');
+var Filepicker = require('filepicker.js');
 var filepicker = new Filepicker('YOUR_API_KEY');
 ```
 
