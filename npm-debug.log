@@ -1,0 +1,151 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'publish' ]
+2 info using npm@1.2.24
+3 info using node@v0.10.9
+4 verbose publish [ '.' ]
+5 verbose read json /home/james/projects/github/filepicker-node/package.json
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . /home/james/.npm/3a52ce78-.lock
+11 verbose read json package.json
+12 verbose tar pack [ '/home/james/tmp/npm-9253/1370473706378-0.6108393887989223/tmp.tgz',
+12 verbose tar pack   '.' ]
+13 verbose tarball /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/tmp.tgz
+14 verbose folder .
+15 info prepublish filepicker.js@0.0.1
+16 silly lockFile 3a52ce78- .
+17 verbose lock . /home/james/.npm/3a52ce78-.lock
+18 silly lockFile 4ff8df37-06378-0-6108393887989223-tmp-tgz /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/tmp.tgz
+19 verbose lock /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/tmp.tgz /home/james/.npm/4ff8df37-06378-0-6108393887989223-tmp-tgz.lock
+20 silly lockFile 3a52ce78- .
+21 silly lockFile 3a52ce78- .
+22 silly lockFile 4ff8df37-06378-0-6108393887989223-tmp-tgz /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/tmp.tgz
+23 silly lockFile 4ff8df37-06378-0-6108393887989223-tmp-tgz /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/tmp.tgz
+24 verbose tar unpack /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/tmp.tgz
+25 silly lockFile 5e17cf38-06378-0-6108393887989223-package /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/package
+26 verbose lock /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/package /home/james/.npm/5e17cf38-06378-0-6108393887989223-package.lock
+27 silly lockFile 4ff8df37-06378-0-6108393887989223-tmp-tgz /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/tmp.tgz
+28 verbose lock /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/tmp.tgz /home/james/.npm/4ff8df37-06378-0-6108393887989223-tmp-tgz.lock
+29 silly gunzTarPerm modes [ '755', '644' ]
+30 silly gunzTarPerm extractEntry package.json
+31 silly gunzTarPerm modified mode [ 'package.json', 436, 420 ]
+32 silly gunzTarPerm extractEntry .npmignore
+33 silly gunzTarPerm modified mode [ '.npmignore', 436, 420 ]
+34 silly gunzTarPerm extractEntry README.md
+35 silly gunzTarPerm modified mode [ 'README.md', 436, 420 ]
+36 silly gunzTarPerm extractEntry index.js
+37 silly gunzTarPerm modified mode [ 'index.js', 436, 420 ]
+38 silly gunzTarPerm extractEntry examples/stream.js
+39 silly gunzTarPerm modified mode [ 'examples/stream.js', 436, 420 ]
+40 silly gunzTarPerm extractEntry examples/upload_and_download.js
+41 silly gunzTarPerm modified mode [ 'examples/upload_and_download.js', 436, 420 ]
+42 silly gunzTarPerm extractEntry examples/stream.coffee
+43 silly gunzTarPerm modified mode [ 'examples/stream.coffee', 436, 420 ]
+44 silly gunzTarPerm extractEntry index.coffee
+45 silly gunzTarPerm modified mode [ 'index.coffee', 436, 420 ]
+46 silly gunzTarPerm extractEntry testme.coffee
+47 silly gunzTarPerm modified mode [ 'testme.coffee', 436, 420 ]
+48 verbose read json /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/package/package.json
+49 silly lockFile 5e17cf38-06378-0-6108393887989223-package /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/package
+50 silly lockFile 5e17cf38-06378-0-6108393887989223-package /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/package
+51 silly lockFile 4ff8df37-06378-0-6108393887989223-tmp-tgz /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/tmp.tgz
+52 silly lockFile 4ff8df37-06378-0-6108393887989223-tmp-tgz /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/tmp.tgz
+53 verbose from cache /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/package/package.json
+54 verbose tar pack [ '/home/james/.npm/filepicker.js/0.0.1/package.tgz',
+54 verbose tar pack   '/home/james/tmp/npm-9253/1370473706378-0.6108393887989223/package' ]
+55 verbose tarball /home/james/.npm/filepicker.js/0.0.1/package.tgz
+56 verbose folder /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/package
+57 silly lockFile 5e17cf38-06378-0-6108393887989223-package /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/package
+58 verbose lock /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/package /home/james/.npm/5e17cf38-06378-0-6108393887989223-package.lock
+59 silly lockFile 3491333e--filepicker-js-0-0-1-package-tgz /home/james/.npm/filepicker.js/0.0.1/package.tgz
+60 verbose lock /home/james/.npm/filepicker.js/0.0.1/package.tgz /home/james/.npm/3491333e--filepicker-js-0-0-1-package-tgz.lock
+61 silly lockFile 5e17cf38-06378-0-6108393887989223-package /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/package
+62 silly lockFile 5e17cf38-06378-0-6108393887989223-package /home/james/tmp/npm-9253/1370473706378-0.6108393887989223/package
+63 silly lockFile 3491333e--filepicker-js-0-0-1-package-tgz /home/james/.npm/filepicker.js/0.0.1/package.tgz
+64 silly lockFile 3491333e--filepicker-js-0-0-1-package-tgz /home/james/.npm/filepicker.js/0.0.1/package.tgz
+65 silly lockFile 4e694f3c--npm-filepicker-js-0-0-1-package /home/james/.npm/filepicker.js/0.0.1/package
+66 verbose lock /home/james/.npm/filepicker.js/0.0.1/package /home/james/.npm/4e694f3c--npm-filepicker-js-0-0-1-package.lock
+67 silly lockFile 4e694f3c--npm-filepicker-js-0-0-1-package /home/james/.npm/filepicker.js/0.0.1/package
+68 silly lockFile 4e694f3c--npm-filepicker-js-0-0-1-package /home/james/.npm/filepicker.js/0.0.1/package
+69 verbose tar unpack /home/james/.npm/filepicker.js/0.0.1/package.tgz
+70 silly lockFile 4e694f3c--npm-filepicker-js-0-0-1-package /home/james/.npm/filepicker.js/0.0.1/package
+71 verbose lock /home/james/.npm/filepicker.js/0.0.1/package /home/james/.npm/4e694f3c--npm-filepicker-js-0-0-1-package.lock
+72 silly lockFile 3491333e--filepicker-js-0-0-1-package-tgz /home/james/.npm/filepicker.js/0.0.1/package.tgz
+73 verbose lock /home/james/.npm/filepicker.js/0.0.1/package.tgz /home/james/.npm/3491333e--filepicker-js-0-0-1-package-tgz.lock
+74 silly gunzTarPerm modes [ '755', '644' ]
+75 silly gunzTarPerm extractEntry package.json
+76 silly gunzTarPerm extractEntry .npmignore
+77 silly gunzTarPerm extractEntry README.md
+78 silly gunzTarPerm extractEntry index.js
+79 silly gunzTarPerm extractEntry examples/stream.js
+80 silly gunzTarPerm extractEntry examples/upload_and_download.js
+81 silly gunzTarPerm extractEntry examples/stream.coffee
+82 silly gunzTarPerm extractEntry index.coffee
+83 silly gunzTarPerm extractEntry testme.coffee
+84 verbose read json /home/james/.npm/filepicker.js/0.0.1/package/package.json
+85 silly lockFile 4e694f3c--npm-filepicker-js-0-0-1-package /home/james/.npm/filepicker.js/0.0.1/package
+86 silly lockFile 4e694f3c--npm-filepicker-js-0-0-1-package /home/james/.npm/filepicker.js/0.0.1/package
+87 silly lockFile 3491333e--filepicker-js-0-0-1-package-tgz /home/james/.npm/filepicker.js/0.0.1/package.tgz
+88 silly lockFile 3491333e--filepicker-js-0-0-1-package-tgz /home/james/.npm/filepicker.js/0.0.1/package.tgz
+89 verbose from cache /home/james/.npm/filepicker.js/0.0.1/package/package.json
+90 verbose chmod /home/james/.npm/filepicker.js/0.0.1/package.tgz 644
+91 verbose chown /home/james/.npm/filepicker.js/0.0.1/package.tgz [ 1000, 1000 ]
+92 silly lockFile 3a52ce78- .
+93 silly publish { name: 'filepicker.js',
+93 silly publish   version: '0.0.1',
+93 silly publish   description: 'A Node.js Filepicker Library, with streaming',
+93 silly publish   main: 'index.coffee',
+93 silly publish   scripts: { test: 'echo "Error: no test specified" && exit 1' },
+93 silly publish   repository: { type: 'git', url: 'git://github.com/sourcec0de/filepicker' },
+93 silly publish   dependencies: { request: '*' },
+93 silly publish   keywords: [ 'filepicker' ],
+93 silly publish   author: { name: 'James R. Qualls' },
+93 silly publish   contributors: [ { name: 'Travis Glines' } ],
+93 silly publish   license: 'MIT',
+93 silly publish   devDependencies: { 'coffee-script': '~1.6.3' },
+93 silly publish   readme: 'filepicker-node\n===============\n\nA Node.js Filepicker Library\n\nInstallation\n-------------\n\n``` bash\n$ npm install filepicker-node\n```\n\n#### Instantiation\n\n``` javascript\nvar Filepicker = require(\'filepicker-node\');\nvar filepicker = new Filepicker(\'YOUR_API_KEY\');\n```\n\n#### Methods\n\n1. `store`\n\t* Stores a file into filepicker and passes the url in the response\n\n\t``` javascript\n\tfilepicker.store("test", {persist:true}, function(err, url) {\n\t\tconsole.log(url);\n\t});\n\t```\n\n2. `read`\n\t* Reads a file from filepicker and passes the contents in the callback\n        * For now uses utf8\n\n\t``` javascript\n        filepicker.read(url, {}, function(err,data){\n          console.log(data);\n        });\n\t```\n\n3. `stream`\n\t* Streams file buffer from filepicker\n\t``` javascript\n\t// Generated by CoffeeScript 1.6.3\n\t/ *\n\tFile Streaming Example\n\tFrom Filepicker\n\n\tStreaming is a NodeJS convention, its how it achieves\n\tits extreme scalability.\n\t*/\n\tvar Filepicker, Stream, file_url, filepicker, opts, writeStream;\n\tStream = require(\'stream\');\n\tFilepicker = require(\'filepicker.js\');\n\tfilepicker = new Filepicker(\'YOUR_FILEPICKER_API_KEY \');\n\twriteStream = new Stream();\n\twriteStream.writable = true;\n\twriteStream.readable = true;\n\n\t/*\n\tNote pipe will send all data emited from filepicker.on \'data\'\n\tand send that buffered data to writeStream.write\n\t*/\n\n\twriteStream.write = function(buffer) {\n\t\tvar formattedData;\n\t\tformattedData = buffer.toString(\'utf8\');\n\t\treturn console.log(formattedData);\n\t/*\n\tFrom here we can take our formatted data\n\tand either emit it again\n\twriteStream.emit(\'data\',formattedData)\n\n\tOr we can do what ever we want with the data.\n\tOR we could even extend this example and add a\n\tcallback to the params and send the data to a callback\n\tafter its been formatted.\n\t*/\n\t};\n\n\twriteStream.end = function(buffer) {\n\t\twriteStream.readable = false;\n\t\treturn writeStream.writable = false;\n\t};\n\n\tfile_url = "YOUR_FILE_URL";\n\topts = {};\n\tfilepicker.stream(file_url, opts).pipe(writeStream);\n\t```',
+93 silly publish   readmeFilename: 'README.md',
+93 silly publish   bugs: { url: 'https://github.com/sourcec0de/filepicker/issues' },
+93 silly publish   _id: 'filepicker.js@0.0.1',
+93 silly publish   dist: { shasum: '7a692f9e63db7da24da5fd9a91a86342861841cf' },
+93 silly publish   _from: '.' }
+94 verbose url raw filepicker.js
+95 verbose url resolving [ 'https://registry.npmjs.org/', './filepicker.js' ]
+96 verbose url resolved https://registry.npmjs.org/filepicker.js
+97 info trying registry request attempt 1 at 16:09:26
+98 http PUT https://registry.npmjs.org/filepicker.js
+99 http 409 https://registry.npmjs.org/filepicker.js
+100 verbose url raw filepicker.js
+101 verbose url resolving [ 'https://registry.npmjs.org/', './filepicker.js' ]
+102 verbose url resolved https://registry.npmjs.org/filepicker.js
+103 info trying registry request attempt 1 at 16:09:26
+104 http GET https://registry.npmjs.org/filepicker.js
+105 http 200 https://registry.npmjs.org/filepicker.js
+106 error publish fail Cannot publish over existing version.
+106 error publish fail Update the 'version' field in package.json and try again.
+106 error publish fail
+106 error publish fail If the previous version was published in error, see:
+106 error publish fail     npm help unpublish
+106 error publish fail
+106 error publish fail To automatically increment version numbers, see:
+106 error publish fail     npm help version
+107 error System Linux 3.8.0-23-generic
+108 error command "/usr/local/bin/node" "/usr/local/bin/npm" "publish"
+109 error cwd /home/james/projects/github/filepicker-node
+110 error node -v v0.10.9
+111 error npm -v 1.2.24
+112 error code EPUBLISHCONFLICT
+113 verbose exit [ 1, true ]
