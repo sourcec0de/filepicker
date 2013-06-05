@@ -1,6 +1,6 @@
 {
   "name": "filepicker-node",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A Node.js Filepicker Library",
   "main": "index.js",
   "scripts": {
@@ -10,12 +10,16 @@
     "type": "git",
     "url": "git://github.com/tglines/filepicker-node.git"
   },
-  "dependencies":{
-    "request":"*"
+  "dependencies": {
+    "request": "*"
   },
   "keywords": [
     "filepicker"
   ],
   "author": "Travis Glines",
-  "license": "MIT"
+  "contributors":[{"name":"James R. Qualls","email":"Qualls.James@gmail.com"}],
+  "license": "MIT",
+  "devDependencies": {
+    "coffee-script": "~1.6.3"
+  }
 }
